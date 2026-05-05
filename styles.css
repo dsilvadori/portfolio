@@ -168,6 +168,7 @@ a {
   color: rgba(255, 255, 255, 0.86);
   font-size: 0.78rem;
   font-weight: 900;
+  padding: 0 10px;
   cursor: pointer;
 }
 
@@ -191,7 +192,8 @@ a {
 }
 
 .site-header.is-scrolled .language-switch button.is-active {
-  color: #fff;
+  background: #ffe8d2;
+  color: var(--red);
 }
 
 .nav-toggle {
