@@ -62,7 +62,7 @@ const translations = {
         "WooCommerce, Moodle, Joomla, Drupal, Magento, Laravel, Mapas Culturais, Vue.js, AWS e Azure.",
       ".skill-card:nth-child(5) h3": "Colaboração e produto",
       ".skill-card:nth-child(5) p":
-        "Boa comunicação, marketing digital, UX/UI, trabalho em equipe e liderança de projetos.",
+        "Boa comunicação, marketing digital, trabalho em equipe e liderança de projetos.",
       ".projects-section .section-kicker": "Cases",
       "#projetos-title": "Projetos em destaque",
       ".filter-button[data-filter='all']": "Todos",
@@ -232,7 +232,7 @@ const translations = {
         "WooCommerce, Moodle, Joomla, Drupal, Magento, Laravel, Mapas Culturais, Vue.js, AWS and Azure.",
       ".skill-card:nth-child(5) h3": "Collaboration and product thinking",
       ".skill-card:nth-child(5) p":
-        "Clear communication, digital marketing knowledge, UX/UI awareness, teamwork and project leadership.",
+        "Clear communication, digital marketing knowledge, teamwork and project leadership.",
       ".projects-section .section-kicker": "Case Studies",
       "#projetos-title": "Featured projects",
       ".filter-button[data-filter='all']": "All",
