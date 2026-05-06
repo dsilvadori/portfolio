@@ -41,7 +41,7 @@ const translations = {
       "#sobre .section-kicker": "Perfil",
       "#sobre-title": "Especialista em WordPress com visão de produto, conteúdo e operação.",
       ".mini-bio":
-        "Desenvolvedor, professor e pai de adolescente. Acredito em uma tecnologia feita para servir as pessoas, aberta a quem quiser aprender, criar e transformar a própria realidade com ela.",
+        "Desenvolvedor, professor e pai de adolescente. Acredito em uma tecnologia feita para servir as pessoas, aberta a quem quiser aprender, criar e transformar a realidade com ela.",
       ".intro-copy p:nth-of-type(2)":
         "Atuo no desenvolvimento de temas do zero, Gutenberg, Theme Builder, Custom Post Types, taxonomias, campos personalizados, hooks, otimização de performance, SEO técnico, segurança e responsividade.",
       ".intro-copy p:nth-of-type(3)":
@@ -218,7 +218,7 @@ const translations = {
       "#sobre .section-kicker": "Profile",
       "#sobre-title": "WordPress specialist with a product, content and operations mindset.",
       ".mini-bio":
-        "Developer, teacher and father of a teenager. I believe technology should serve people and be open to anyone who wants to learn, create and use it to transform their own reality.",
+        "Developer, teacher and father of a teenager. I believe technology should serve people and be open to anyone who wants to learn, create and transform reality with it.",
       ".intro-copy p:nth-of-type(2)":
         "I work on custom theme development, Gutenberg, Theme Builder, Custom Post Types, taxonomies, custom fields, hooks, performance optimization, technical SEO, security and responsive interfaces.",
       ".intro-copy p:nth-of-type(3)":
