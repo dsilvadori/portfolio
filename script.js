@@ -18,6 +18,8 @@ const translations = {
     menuLabel: "Abrir menu",
     heroStatsLabel: "Resumo profissional",
     avatarLabel: "Ilustração de Daniel Silva",
+    resumeHref: "assets/curriculo-daniel-silva.pdf",
+    resumeFile: "curriculo-daniel-silva.pdf",
     whatsapp:
       "https://wa.me/5511985393097?text=Ol%C3%A1%2C%20Daniel%21%20Vim%20pelo%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar.",
     text: {
@@ -102,6 +104,7 @@ const translations = {
       "#contato-title": "Vamos conversar sobre seu próximo projeto?",
       ".contact-panel > div:first-child > p:not(.section-kicker)":
         "Estou em São Paulo/SP e atuo com desenvolvimento Web: PHP, JavaScript e frameworks, WordPress, WooCommerce, Moodle, manutenção evolutiva, integrações e melhoria de performance.",
+      "[data-cv-download]": "Baixar currículo",
       ".site-footer p": "Daniel Silva - Desenvolvedor Web",
       ".site-footer a": "Voltar ao topo"
     },
@@ -192,6 +195,8 @@ const translations = {
     menuLabel: "Open menu",
     heroStatsLabel: "Professional summary",
     avatarLabel: "Illustration of Daniel Silva",
+    resumeHref: "assets/curriculo-daniel-silva-en.pdf",
+    resumeFile: "daniel-silva-resume.pdf",
     whatsapp:
       "https://wa.me/5511985393097?text=Hi%2C%20Daniel%21%20I%20came%20from%20your%20portfolio%20and%20would%20like%20to%20talk.",
     text: {
@@ -276,6 +281,7 @@ const translations = {
       "#contato-title": "Let's talk about your next project?",
       ".contact-panel > div:first-child > p:not(.section-kicker)":
         "I am based in São Paulo, Brazil, and work with web development: PHP, JavaScript and frameworks, WordPress, WooCommerce, Moodle, ongoing maintenance, integrations and performance optimization.",
+      "[data-cv-download]": "Download resume",
       ".site-footer p": "Daniel Silva - Web Developer",
       ".site-footer a": "Back to top"
     },
@@ -421,6 +427,13 @@ const applyLanguage = (language) => {
   document.querySelector(".hero-avatar").setAttribute("aria-label", dictionary.avatarLabel);
   document.querySelector(".hero-avatar img").setAttribute("alt", dictionary.avatarLabel);
   document.querySelector(".contact-actions a[href^='https://wa.me']").setAttribute("href", dictionary.whatsapp);
+
+  const resumeLink = document.querySelector("[data-cv-download]");
+
+  if (resumeLink) {
+    resumeLink.setAttribute("href", dictionary.resumeHref);
+    resumeLink.setAttribute("download", dictionary.resumeFile);
+  }
 
   Object.entries(dictionary.text).forEach(([selector, text]) => {
     setText(selector, text);
