@@ -75,12 +75,16 @@ const translations = {
       ".experience-section .section-kicker": "Trajetória",
       "#experiencia-title": "Experiência construída em projetos reais e ambientes críticos.",
       ".timeline-item:nth-child(1) span": "2025 - atual",
+      ".timeline-item:nth-child(1) h3": "Secretaria Nacional de Periferias",
       ".timeline-item:nth-child(1) p":
         "Laravel, Mapas Culturais, plugins customizados e manutenção evolutiva para fluxos públicos e avaliação.",
+      ".timeline-item:nth-child(2) h3": "Vencendo Concursos e Edge UOL",
       ".timeline-item:nth-child(2) p":
         "WordPress, RD Station, Moodle, tema bilíngue do zero, ACF, CPTs e melhorias de UX em conversão.",
+      ".timeline-item:nth-child(3) h3": "RDC Viagens, Plan B e Avenue Code",
       ".timeline-item:nth-child(3) p":
         "Temas customizados, intranet com SSO Microsoft, APIs REST, CPTs, ACF e portais institucionais.",
+      ".timeline-item:nth-child(4) h3": "Governo de SP, Estadão e Agências",
       ".timeline-item:nth-child(4) p":
         "Portais de grande audiência, blogs e sites WordPress, WP multisites, hotsites, SEO técnico e suporte a ambientes críticos.",
       ".education-section .section-kicker": "Formação",
@@ -245,12 +249,16 @@ const translations = {
       ".experience-section .section-kicker": "Career",
       "#experiencia-title": "Experience shaped by real projects and mission-critical environments.",
       ".timeline-item:nth-child(1) span": "2025 - present",
+      ".timeline-item:nth-child(1) h3": "National Secretariat for Peripheries",
       ".timeline-item:nth-child(1) p":
         "Laravel, Mapas Culturais, custom plugins and ongoing maintenance for public workflows and evaluation processes.",
+      ".timeline-item:nth-child(2) h3": "Vencendo Concursos and Edge UOL",
       ".timeline-item:nth-child(2) p":
         "WordPress, RD Station, Moodle, bilingual theme development from scratch, ACF, CPTs and UX improvements focused on conversion.",
+      ".timeline-item:nth-child(3) h3": "RDC Viagens, Plan B and Avenue Code",
       ".timeline-item:nth-child(3) p":
         "Custom themes, Microsoft SSO intranet, REST APIs, CPTs, ACF and institutional portals.",
+      ".timeline-item:nth-child(4) h3": "São Paulo Government, Estadão and Agencies",
       ".timeline-item:nth-child(4) p":
         "High-traffic portals, WordPress blogs and websites, WP multisites, campaign sites, technical SEO and support for critical environments.",
       ".education-section .section-kicker": "Education",
