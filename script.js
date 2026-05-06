@@ -80,7 +80,7 @@ const translations = {
         "Laravel, Mapas Culturais, plugins customizados e manutenção evolutiva para fluxos públicos e avaliação.",
       ".timeline-item:nth-child(2) h3": "Vencendo Concursos e Edge UOL",
       ".timeline-item:nth-child(2) p":
-        "WordPress, RD Station, Moodle, tema bilíngue do zero, ACF, CPTs e melhorias de UX em conversão.",
+        "WordPress, tema bilíngue do zero, ACF, CPTs e melhorias de UX em conversão.",
       ".timeline-item:nth-child(3) h3": "RDC Viagens, Plan B e Avenue Code",
       ".timeline-item:nth-child(3) p":
         "Temas customizados, intranet com SSO Microsoft, APIs REST, CPTs, ACF e portais institucionais.",
@@ -110,8 +110,8 @@ const translations = {
         meta: ["2024-2025", "Educação"],
         title: "Vencendo Concursos",
         description:
-          "Landing pages em WordPress integradas ao RD Station, CPTs para notícias, cursos e conteúdos, otimização de UX, SEO, segurança com Wordfence e configuração de Moodle.",
-        tags: ["WordPress", "Landing pages", "CPTs", "SEO técnico"],
+          "Landing pages em WordPress e páginas de lançamento, CPTs para notícias, cursos e conteúdos, otimização de UX, SEO, segurança com Wordfence e melhores práticas.",
+        tags: ["WordPress", "Landing pages", "SEO técnico"],
         link: "Acessar projeto"
       },
       {
@@ -119,7 +119,7 @@ const translations = {
         title: "Prêmio Periferia Viva 2025",
         description:
           "Plataforma construída em Laravel com base no Mapas Culturais, com customizações de fluxo, plugin para distribuição automatizada de avaliadores e melhorias de usabilidade, performance e estabilidade.",
-        tags: ["Laravel", "Mapas Culturais", "Plugin"],
+        tags: ["Laravel", "Mapas Culturais", "Plugins"],
         link: "Acessar projeto"
       },
       {
@@ -151,7 +151,7 @@ const translations = {
         title: "Portal do Governo de São Paulo",
         description:
           "Manutenção e evolução de 25 sites governamentais, hotsites de alta visibilidade e Vacinômetro com integração a API externa da Secretaria da Saúde.",
-        tags: ["Alta criticidade", "API externa", "Portais públicos"],
+        tags: ["Alta criticidade", "APIs", "Portais públicos"],
         link: "Acessar projeto"
       },
       {
@@ -254,7 +254,7 @@ const translations = {
         "Laravel, Mapas Culturais, custom plugins and ongoing maintenance for public workflows and evaluation processes.",
       ".timeline-item:nth-child(2) h3": "Vencendo Concursos and Edge UOL",
       ".timeline-item:nth-child(2) p":
-        "WordPress, RD Station, Moodle, bilingual theme development from scratch, ACF, CPTs and UX improvements focused on conversion.",
+        "WordPress, bilingual theme development from scratch, ACF, CPTs and UX improvements focused on conversion.",
       ".timeline-item:nth-child(3) h3": "RDC Viagens, Plan B and Avenue Code",
       ".timeline-item:nth-child(3) p":
         "Custom themes, Microsoft SSO intranet, REST APIs, CPTs, ACF and institutional portals.",
@@ -284,8 +284,8 @@ const translations = {
         meta: ["2024-2025", "Education"],
         title: "Vencendo Concursos",
         description:
-          "WordPress landing pages integrated with RD Station, CPTs for news, courses and content, UX and SEO improvements, Wordfence security and Moodle setup.",
-        tags: ["WordPress", "Landing pages", "CPTs", "Technical SEO"],
+          "WordPress landing pages and launch pages, CPTs for news, courses and content, UX and SEO improvements, Wordfence security and best practices.",
+        tags: ["WordPress", "Landing pages", "Technical SEO"],
         link: "View project"
       },
       {
@@ -293,7 +293,7 @@ const translations = {
         title: "Periferia Viva Award 2025",
         description:
           "Laravel platform based on Mapas Culturais, with custom workflows, an automated evaluator-assignment plugin and improvements to usability, performance and stability.",
-        tags: ["Laravel", "Mapas Culturais", "Plugin"],
+        tags: ["Laravel", "Mapas Culturais", "Plugins"],
         link: "View project"
       },
       {
@@ -325,7 +325,7 @@ const translations = {
         title: "São Paulo State Government Portal",
         description:
           "Maintenance and evolution of 25 government websites, high-visibility campaign sites and a public vaccination dashboard integrated with an external API from the Health Department.",
-        tags: ["Mission-critical", "External API", "Public portals"],
+        tags: ["Mission-critical", "APIs", "Public portals"],
         link: "View project"
       },
       {
