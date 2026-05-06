@@ -1009,12 +1009,7 @@ a {
   }
 
   .footer-inner {
-    display: block;
-  }
-
-  .footer-inner a {
-    display: inline-flex;
-    margin-top: 10px;
+    display: flex;
   }
 }
 
