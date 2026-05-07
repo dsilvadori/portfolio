@@ -31,7 +31,7 @@ const translations = {
       ".hero .eyebrow": "WordPress, PHP, Laravel, IA aplicada e arquitetura de conteúdo",
       "#hero-title": "Código limpo, CMS organizado e WordPress sem drama.",
       ".hero-lead":
-        "Eu sou Daniel Silva, desenvolvedor web com quase 14 anos criando temas, plugins, integrações API REST, WooCommerce, portais institucionais e plataformas digitais com foco em performance, SEO técnico e experiência do usuário. Hoje também sou pós-graduando em Engenharia de Software em IA Aplicada.",
+        "Sou Daniel Silva, especialista em Desenvolvimento Web com 14 anos de experiência na criação de temas personalizados, plugins, integrações API REST, WooCommerce, portais institucionais e plataformas digitais com foco em performance, SEO técnico e experiência do usuário. Hoje também sou pós-graduando em Engenharia de Software em IA Aplicada.",
       ".hero-actions .button-primary": "Ver projetos",
       ".hero-actions .button-secondary": "Falar comigo",
       ".hero-stats div:nth-child(1) dd": "anos de experiência",
@@ -208,7 +208,7 @@ const translations = {
       ".hero .eyebrow": "WordPress, PHP, Laravel, applied AI and content architecture",
       "#hero-title": "Clean code, organized CMS, and WordPress that just works.",
       ".hero-lead":
-        "I am Daniel Silva, a web developer with almost 14 years of experience building themes, plugins, REST API integrations, WooCommerce stores, institutional portals and digital platforms focused on performance, technical SEO and user experience. I am also pursuing a graduate degree in Software Engineering with Applied AI.",
+        "I am Daniel Silva, a Web Development specialist with 14 years of experience creating custom themes, plugins, REST API integrations, WooCommerce stores, institutional portals and digital platforms focused on performance, technical SEO and user experience. I am also pursuing a graduate degree in Software Engineering with Applied AI.",
       ".hero-actions .button-primary": "View projects",
       ".hero-actions .button-secondary": "Contact me",
       ".hero-stats div:nth-child(1) dd": "years of experience",

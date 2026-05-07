@@ -948,7 +948,7 @@ a {
 
 @media (max-width: 640px) {
   :root {
-    --container: min(100% - 24px, 1120px);
+    --container: min(1120px, calc(100% - 48px));
   }
 
   .nav {
