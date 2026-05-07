@@ -916,8 +916,9 @@ a {
   }
 
   .hero-avatar {
-    justify-self: start;
+    justify-self: center;
     width: min(330px, 88vw);
+    transform: none;
   }
 
   .two-column,
