@@ -39,7 +39,7 @@ const translations = {
       ".hero-stats div:nth-child(3) dd": "temas, plugins e API REST",
       ".hero-avatar figcaption": "WordPress, PHP e café bem administrado.",
       "#sobre .section-kicker": "Perfil",
-      "#sobre-title": "Desenvolvimento WordPress com visão de produto, conteúdo e operação.",
+      "#sobre-title": "Desenvolvimento Web com visão de produto, conteúdo e operação.",
       ".mini-bio":
         "Desenvolvedor, professor e pai de adolescente. Acredito em uma tecnologia feita para servir as pessoas, aberta a quem quiser aprender, criar e transformar a realidade com ela.",
       ".intro-copy p:nth-of-type(2)":
@@ -216,7 +216,7 @@ const translations = {
       ".hero-stats div:nth-child(3) dd": "themes, plugins and REST API",
       ".hero-avatar figcaption": "WordPress, PHP and well-managed coffee.",
       "#sobre .section-kicker": "Profile",
-      "#sobre-title": "WordPress development with a product, content and operations mindset.",
+      "#sobre-title": "Web development with a product, content and operations mindset.",
       ".mini-bio":
         "Developer, teacher and father of a teenager. I believe technology should serve people and be open to anyone who wants to learn, create and transform reality with it.",
       ".intro-copy p:nth-of-type(2)":
