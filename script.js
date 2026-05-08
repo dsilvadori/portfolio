@@ -31,7 +31,7 @@ const translations = {
       ".hero .eyebrow": "WordPress, PHP, Laravel, IA aplicada e arquitetura de conteúdo",
       "#hero-title": "Código limpo, CMS organizado e WordPress sem drama.",
       ".hero-lead":
-        "Sou Daniel Silva, especialista em Desenvolvimento Web com 14 anos de experiência na criação de temas personalizados, plugins, integrações API REST, WooCommerce, portais institucionais e plataformas digitais com foco em performance, SEO técnico e experiência do usuário. Hoje também sou pós-graduando em Engenharia de Software em IA Aplicada.",
+        "Sou Daniel Silva, desenvolvedor web com 14 anos de experiência na criação de temas personalizados, plugins, integrações API REST, WooCommerce, portais institucionais e plataformas digitais com foco em performance, SEO técnico e experiência do usuário. Hoje também sou pós-graduando em Engenharia de Software em IA Aplicada.",
       ".hero-actions .button-primary": "Ver projetos",
       ".hero-actions .button-secondary": "Falar comigo",
       ".hero-stats div:nth-child(1) dd": "anos de experiência",
@@ -39,7 +39,7 @@ const translations = {
       ".hero-stats div:nth-child(3) dd": "temas, plugins e API REST",
       ".hero-avatar figcaption": "WordPress, PHP e café bem administrado.",
       "#sobre .section-kicker": "Perfil",
-      "#sobre-title": "Especialista em WordPress com visão de produto, conteúdo e operação.",
+      "#sobre-title": "Desenvolvedor WordPress com visão de produto, conteúdo e operação.",
       ".mini-bio":
         "Desenvolvedor, professor e pai de adolescente. Acredito em uma tecnologia feita para servir as pessoas, aberta a quem quiser aprender, criar e transformar a realidade com ela.",
       ".intro-copy p:nth-of-type(2)":
@@ -208,7 +208,7 @@ const translations = {
       ".hero .eyebrow": "WordPress, PHP, Laravel, applied AI and content architecture",
       "#hero-title": "Clean code, organized CMS, and WordPress that just works.",
       ".hero-lead":
-        "I am Daniel Silva, a Web Development specialist with 14 years of experience creating custom themes, plugins, REST API integrations, WooCommerce stores, institutional portals and digital platforms focused on performance, technical SEO and user experience. I am also pursuing a graduate degree in Software Engineering with Applied AI.",
+        "I am Daniel Silva, a web developer with 14 years of experience creating custom themes, plugins, REST API integrations, WooCommerce stores, institutional portals and digital platforms focused on performance, technical SEO and user experience. I am also pursuing a graduate degree in Software Engineering with Applied AI.",
       ".hero-actions .button-primary": "View projects",
       ".hero-actions .button-secondary": "Contact me",
       ".hero-stats div:nth-child(1) dd": "years of experience",
@@ -216,7 +216,7 @@ const translations = {
       ".hero-stats div:nth-child(3) dd": "themes, plugins and REST API",
       ".hero-avatar figcaption": "WordPress, PHP and well-managed coffee.",
       "#sobre .section-kicker": "Profile",
-      "#sobre-title": "WordPress specialist with a product, content and operations mindset.",
+      "#sobre-title": "WordPress developer with a product, content and operations mindset.",
       ".mini-bio":
         "Developer, teacher and father of a teenager. I believe technology should serve people and be open to anyone who wants to learn, create and transform reality with it.",
       ".intro-copy p:nth-of-type(2)":
