@@ -153,17 +153,15 @@ const translations = {
         meta: ["2018-2021", "Governo"],
         title: "Portal do Governo de São Paulo",
         description:
-          "Manutenção e evolução de 25 sites governamentais, hotsites de alta visibilidade e Vacinômetro com integração a API externa da Secretaria da Saúde.",
-        tags: ["Alta criticidade", "APIs", "Portais públicos"],
-        link: "Acessar projeto"
+          "Manutenção e evolução da versão publicada do portal entre 2018 e 2023, incluindo 25 sites governamentais, hotsites, Vacinômetro e cabeçalho padrão dos sites do Governo de SP.",
+        tags: ["Alta criticidade", "APIs", "Cabeçalho padrão"]
       },
       {
         meta: ["2013-2017", "Conteúdo"],
         title: "Blogs e Colunas do Estadão",
         description:
           "Desenvolvimento de temas WordPress e manutenção para blogs de grande audiência, com suporte a conteúdo, estabilidade operacional e evolução de templates editoriais.",
-        tags: ["WordPress", "Temas", "Alta audiência"],
-        link: "Acessar projeto"
+        tags: ["WordPress", "Temas", "Alta audiência"]
       },
       {
         meta: ["WordPress", "Literatura"],
@@ -330,17 +328,15 @@ const translations = {
         meta: ["2018-2021", "Government"],
         title: "São Paulo State Government Portal",
         description:
-          "Maintenance and evolution of 25 government websites, high-visibility campaign sites and a public vaccination dashboard integrated with an external API from the Health Department.",
-        tags: ["Mission-critical", "APIs", "Public portals"],
-        link: "View project"
+          "Maintenance and evolution of the portal version published between 2018 and 2023, including 25 government websites, campaign sites, the vaccination dashboard and the standard header used across São Paulo State Government websites.",
+        tags: ["Mission-critical", "APIs", "Standard header"]
       },
       {
         meta: ["2013-2017", "Content"],
         title: "Estadão Blogs and Columns",
         description:
           "WordPress theme development and maintenance for high-traffic blogs, supporting editorial operations, stability and template evolution.",
-        tags: ["WordPress", "Themes", "High traffic"],
-        link: "View project"
+        tags: ["WordPress", "Themes", "High traffic"]
       },
       {
         meta: ["WordPress", "Literature"],
@@ -402,7 +398,12 @@ const applyProjects = (projects) => {
 
     card.querySelector("h3").textContent = project.title;
     card.querySelector("p").textContent = project.description;
-    card.querySelector(".project-link").textContent = project.link;
+
+    const projectLink = card.querySelector(".project-link");
+
+    if (projectLink && project.link) {
+      projectLink.textContent = project.link;
+    }
 
     card.querySelectorAll(".tag-list li").forEach((tag, tagIndex) => {
       tag.textContent = project.tags[tagIndex];
