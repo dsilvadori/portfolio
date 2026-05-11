@@ -110,11 +110,19 @@ const translations = {
     },
     projects: [
       {
-        meta: ["2024-2025", "Educação"],
+        meta: ["2024-2026", "Educação"],
         title: "Vencendo Concursos",
         description:
           "Landing pages em WordPress e páginas de lançamento, CPTs para notícias, cursos e conteúdos, otimização de UX, SEO, segurança com Wordfence e melhores práticas.",
         tags: ["WordPress", "Landing pages", "SEO técnico"],
+        link: "Acessar projeto"
+      },
+      {
+        meta: ["2026", "Mapas Culturais"],
+        title: "Periferia Viva Reformas",
+        description:
+          "Plataforma em Laravel baseada no Mapas Culturais para submissão e acompanhamento de propostas do programa, com fluxos administrativos, conteúdo público e suporte a regras de seleção.",
+        tags: ["Laravel", "Mapas Culturais", "Fluxos públicos"],
         link: "Acessar projeto"
       },
       {
@@ -123,14 +131,6 @@ const translations = {
         description:
           "Plataforma construída em Laravel com base no Mapas Culturais, com customizações de fluxo, plugin para distribuição automatizada de avaliadores e melhorias de usabilidade, performance e estabilidade.",
         tags: ["Laravel", "Mapas Culturais", "Plugins"],
-        link: "Acessar projeto"
-      },
-      {
-        meta: ["2025", "Mapas Culturais"],
-        title: "Periferia Viva Reformas",
-        description:
-          "Plataforma em Laravel baseada no Mapas Culturais para submissão e acompanhamento de propostas do programa, com fluxos administrativos, conteúdo público e suporte a regras de seleção.",
-        tags: ["Laravel", "Mapas Culturais", "Fluxos públicos"],
         link: "Acessar projeto"
       },
       {
@@ -285,11 +285,19 @@ const translations = {
     },
     projects: [
       {
-        meta: ["2024-2025", "Education"],
+        meta: ["2024-2026", "Education"],
         title: "Vencendo Concursos",
         description:
           "WordPress landing pages and launch pages, CPTs for news, courses and content, UX and SEO improvements, Wordfence security and best practices.",
         tags: ["WordPress", "Landing pages", "Technical SEO"],
+        link: "View project"
+      },
+      {
+        meta: ["2026", "Mapas Culturais"],
+        title: "Periferia Viva Reformas",
+        description:
+          "Laravel platform based on Mapas Culturais for submitting and tracking proposals, with administrative workflows, public content and support for selection rules.",
+        tags: ["Laravel", "Mapas Culturais", "Public workflows"],
         link: "View project"
       },
       {
@@ -298,14 +306,6 @@ const translations = {
         description:
           "Laravel platform based on Mapas Culturais, with custom workflows, an automated evaluator-assignment plugin and improvements to usability, performance and stability.",
         tags: ["Laravel", "Mapas Culturais", "Plugins"],
-        link: "View project"
-      },
-      {
-        meta: ["2025", "Mapas Culturais"],
-        title: "Periferia Viva Reformas",
-        description:
-          "Laravel platform based on Mapas Culturais for submitting and tracking proposals, with administrative workflows, public content and support for selection rules.",
-        tags: ["Laravel", "Mapas Culturais", "Public workflows"],
         link: "View project"
       },
       {
