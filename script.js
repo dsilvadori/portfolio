@@ -153,8 +153,8 @@ const translations = {
         meta: ["2018-2021", "Governo"],
         title: "Vacinômetro e Portal do Governo",
         description:
-          "Vacinômetro com informações de vacinação em tempo real para a população durante a pandemia, além da manutenção da versão publicada do portal entre 2018 e 2023, 25 sites governamentais e cabeçalho padrão.",
-        tags: ["Alta criticidade", "APIs", "Cabeçalho padrão"]
+          "Vacinômetro com informações de vacinação em tempo real para a população durante a pandemia, além do desenvolvimento e manutenção da versão publicada entre 2018 e 2023, 25 sites governamentais e cabeçalho e rodapé padrão para todos os sites do governo.",
+        tags: ["Alta criticidade", "APIs", "Vacinômetro"]
       },
       {
         meta: ["2013-2017", "Conteúdo"],
@@ -328,8 +328,8 @@ const translations = {
         meta: ["2018-2021", "Government"],
         title: "Vaccination Dashboard and Government Portal",
         description:
-          "Vaccination dashboard with real-time vaccination information for the public during the pandemic, plus maintenance of the portal version published between 2018 and 2023, 25 government websites and the standard header.",
-        tags: ["Mission-critical", "APIs", "Standard header"]
+          "Vaccination dashboard with real-time vaccination information for the public during the pandemic, plus development and maintenance of the version published between 2018 and 2023, 25 government websites and the standard header and footer for all government websites.",
+        tags: ["Mission-critical", "APIs", "Vaccination dashboard"]
       },
       {
         meta: ["2013-2017", "Content"],
