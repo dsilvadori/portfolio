@@ -21,8 +21,8 @@
     <meta name="twitter:image" content="https://dsilvadori.github.io/portfolio/assets/daniel-avatar.png" />
     <title>Daniel Silva | Desenvolvedor Web</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="preload" as="image" href="assets/hero-wordpress-portfolio.png" />
-    <link rel="preload" as="image" href="assets/daniel-avatar.png" />
+    <link rel="preload" as="image" href="assets/hero-wordpress-portfolio.webp" type="image/webp" />
+    <link rel="preload" as="image" href="assets/daniel-avatar.webp" type="image/webp" />
     <link rel="stylesheet" href="styles.css" />
     <script type="application/ld+json">
       {
@@ -87,7 +87,10 @@
 
     <main id="conteudo">
       <section class="hero" id="inicio" aria-labelledby="hero-title">
-        <img class="hero-media" src="assets/hero-wordpress-portfolio.png" alt="" />
+        <picture class="hero-media">
+          <source srcset="assets/hero-wordpress-portfolio.webp" type="image/webp" />
+          <img src="assets/hero-wordpress-portfolio.png" alt="" />
+        </picture>
         <div class="hero-overlay"></div>
         <div class="hero-content container">
           <div class="hero-copy">
@@ -119,7 +122,10 @@
             </dl>
           </div>
           <figure class="hero-avatar" aria-label="Ilustração de Daniel Silva">
-            <img src="assets/daniel-avatar.png" alt="Daniel Silva em formato de desenho" />
+            <picture>
+              <source srcset="assets/daniel-avatar.webp" type="image/webp" />
+              <img src="assets/daniel-avatar.png" alt="Daniel Silva em formato de desenho" />
+            </picture>
             <figcaption>WordPress, PHP e café bem administrado.</figcaption>
           </figure>
         </div>
@@ -202,7 +208,10 @@
           <div class="projects-grid" data-projects>
             <article class="project-card" data-category="wordpress api">
               <div class="project-thumb project-thumb-blue project-thumb-vencendo">
-                <img src="assets/logo-vc-transparente.png" alt="Logo Vencendo Concursos" loading="lazy" />
+                <picture>
+                  <source srcset="assets/logo-vc-transparente.webp" type="image/webp" />
+                  <img src="assets/logo-vc-transparente.png" alt="Logo Vencendo Concursos" loading="lazy" />
+                </picture>
               </div>
               <div class="project-topline">
                 <span>2024-2026</span>
@@ -225,7 +234,10 @@
 
             <article class="project-card" data-category="laravel api portal">
               <div class="project-thumb">
-                <img src="assets/periferia-reformas.jpg.jpg" alt="Imagem do Periferia Viva Reformas" loading="lazy" />
+                <picture>
+                  <source srcset="assets/periferia-reformas.jpg.webp" type="image/webp" />
+                  <img src="assets/periferia-reformas.jpg.jpg" alt="Imagem do Periferia Viva Reformas" loading="lazy" />
+                </picture>
               </div>
               <div class="project-topline">
                 <span>2026</span>
@@ -248,7 +260,10 @@
 
             <article class="project-card" data-category="laravel api portal">
               <div class="project-thumb">
-                <img src="assets/periferiaviva.jpeg" alt="Imagem do Prêmio Periferia Viva 2025" loading="lazy" />
+                <picture>
+                  <source srcset="assets/periferiaviva.webp" type="image/webp" />
+                  <img src="assets/periferiaviva.jpeg" alt="Imagem do Prêmio Periferia Viva 2025" loading="lazy" />
+                </picture>
               </div>
               <div class="project-topline">
                 <span>2025</span>
@@ -271,7 +286,10 @@
 
             <article class="project-card" data-category="wordpress portal">
               <div class="project-thumb">
-                <img src="assets/project-edge-uol.jpg" alt="Imagem institucional da Edge UOL" loading="lazy" />
+                <picture>
+                  <source srcset="assets/project-edge-uol.webp" type="image/webp" />
+                  <img src="assets/project-edge-uol.jpg" alt="Imagem institucional da Edge UOL" loading="lazy" />
+                </picture>
               </div>
               <div class="project-topline">
                 <span>2024</span>
@@ -294,7 +312,10 @@
 
             <article class="project-card" data-category="wordpress api portal">
               <div class="project-thumb project-thumb-logo project-thumb-blue">
-                <img src="assets/project-rdc-logo.png" alt="Logo RDC Viagens" loading="lazy" />
+                <picture>
+                  <source srcset="assets/project-rdc-logo.webp" type="image/webp" />
+                  <img src="assets/project-rdc-logo.png" alt="Logo RDC Viagens" loading="lazy" />
+                </picture>
               </div>
               <div class="project-topline">
                 <span>2021-2023</span>
@@ -317,7 +338,10 @@
 
             <article class="project-card" data-category="wordpress api portal">
               <div class="project-thumb project-thumb-logo project-thumb-dark">
-                <img src="assets/governo-do-estado-de-sao-paulo-sp-logo-2.png" alt="Logo Governo do Estado de São Paulo" loading="lazy" />
+                <picture>
+                  <source srcset="assets/governo-do-estado-de-sao-paulo-sp-logo-2.webp" type="image/webp" />
+                  <img src="assets/governo-do-estado-de-sao-paulo-sp-logo-2.png" alt="Logo Governo do Estado de São Paulo" loading="lazy" />
+                </picture>
               </div>
               <div class="project-topline">
                 <span>2018-2021</span>
@@ -338,7 +362,10 @@
 
             <article class="project-card" data-category="wordpress portal">
               <div class="project-thumb">
-                <img src="assets/project-estadao.png" alt="Imagem dos Blogs e Colunas do Estadão" loading="lazy" />
+                <picture>
+                  <source srcset="assets/project-estadao.webp" type="image/webp" />
+                  <img src="assets/project-estadao.png" alt="Imagem dos Blogs e Colunas do Estadão" loading="lazy" />
+                </picture>
               </div>
               <div class="project-topline">
                 <span>2013-2017</span>
@@ -358,7 +385,10 @@
 
             <article class="project-card" data-category="wordpress portal">
               <div class="project-thumb project-thumb-logo project-thumb-blue project-thumb-pedro">
-                <img src="assets/project-pedro-bandeira.png" alt="Logo do site Pedro Bandeira" loading="lazy" />
+                <picture>
+                  <source srcset="assets/project-pedro-bandeira.webp" type="image/webp" />
+                  <img src="assets/project-pedro-bandeira.png" alt="Logo do site Pedro Bandeira" loading="lazy" />
+                </picture>
               </div>
               <div class="project-topline">
                 <span>WordPress</span>
@@ -381,7 +411,10 @@
 
             <article class="project-card" data-category="portal">
               <div class="project-thumb">
-                <img src="assets/project-cozinha-solidaria.png" alt="Imagem do projeto Cozinha Solidária" loading="lazy" />
+                <picture>
+                  <source srcset="assets/project-cozinha-solidaria.webp" type="image/webp" />
+                  <img src="assets/project-cozinha-solidaria.png" alt="Imagem do projeto Cozinha Solidária" loading="lazy" />
+                </picture>
               </div>
               <div class="project-topline">
                 <span>Projeto</span>
