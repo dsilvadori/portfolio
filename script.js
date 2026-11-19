@@ -28,8 +28,8 @@ const translations = {
       ".nav-menu li:nth-child(2) a": "Projetos",
       ".nav-menu li:nth-child(3) a": "Experiência",
       ".nav-menu li:nth-child(4) a": "Contato",
-      ".hero .eyebrow": "WordPress, PHP, Laravel, IA aplicada e arquitetura de conteúdo",
-      "#hero-title": "Código limpo, CMS organizado e WordPress sem drama.",
+      ".hero .eyebrow": "PHP, Laravel, JavaScript, IA aplicada e arquitetura de conteúdo",
+      "#hero-title": "Código limpo, CMS organizado, websites e aplicações sem drama.",
       ".hero-lead":
         "Sou Daniel Silva, desenvolvedor web com 14 anos de experiência na criação de temas personalizados, plugins, integrações API REST, WooCommerce, portais institucionais e plataformas digitais com foco em performance, SEO técnico e experiência do usuário. Hoje também sou pós-graduando em Engenharia de Software em IA Aplicada.",
       ".hero-actions .button-primary": "Ver projetos",
@@ -37,7 +37,7 @@ const translations = {
       ".hero-stats div:nth-child(1) dd": "anos de experiência",
       ".hero-stats div:nth-child(2) dd": "sites governamentais mantidos",
       ".hero-stats div:nth-child(3) dd": "temas, plugins e API REST",
-      ".hero-avatar figcaption": "WordPress, PHP e café bem administrado.",
+      ".hero-avatar figcaption": "PHP, JavaScript e café bem administrado.",
       "#sobre .section-kicker": "Perfil",
       "#sobre-title": "Desenvolvimento Web com visão de produto, conteúdo e operação.",
       ".mini-bio":
@@ -109,6 +109,30 @@ const translations = {
       ".site-footer a": "Voltar ao topo"
     },
     projects: [
+      {
+        meta: ["2026", "Jogo web"],
+        title: "Acarabet",
+        description:
+          "Jogo web em pixel art com 10 minijogos para preparar um acarajé com a chef Bia, do feijão-fradinho à fritura no dendê. Funciona no celular e no computador e gera cupom de desconto para a loja do Acarajazz.",
+        tags: ["Astro", "Gamificação", "Pixel art"],
+        link: "Acessar projeto"
+      },
+      {
+        meta: ["2026", "Gastronomia"],
+        title: "Acarajazz",
+        description:
+          "Site do boteco de baianos na Vila Mariana, com cardápio completo por categorias, destaques da casa, delivery, mapa interativo de localização, eventos e contato direto pelo WhatsApp.",
+        tags: ["Astro", "Cardápio digital", "SEO local"],
+        link: "Acessar projeto"
+      },
+      {
+        meta: ["2026", "Gastronomia"],
+        title: "Kangaça",
+        description:
+          "Site do restaurante autoral de fusão Brasil, África e Ásia na Vila Mariana, com cardápio, almoço executivo, orçamento de eventos, reservas pelo WhatsApp, animações e consentimento de cookies (LGPD).",
+        tags: ["Astro", "Reservas", "LGPD"],
+        link: "Acessar projeto"
+      },
       {
         meta: ["2024-2026", "Educação"],
         title: "Vencendo Concursos",
@@ -203,8 +227,8 @@ const translations = {
       ".nav-menu li:nth-child(2) a": "Projects",
       ".nav-menu li:nth-child(3) a": "Experience",
       ".nav-menu li:nth-child(4) a": "Contact",
-      ".hero .eyebrow": "WordPress, PHP, Laravel, applied AI and content architecture",
-      "#hero-title": "Clean code, organized CMS, and WordPress that just works.",
+      ".hero .eyebrow": "PHP, Laravel, JavaScript, applied AI and content architecture",
+      "#hero-title": "Clean code, organized CMS, and websites and applications without the drama.",
       ".hero-lead":
         "I am Daniel Silva, a web developer with 14 years of experience creating custom themes, plugins, REST API integrations, WooCommerce stores, institutional portals and digital platforms focused on performance, technical SEO and user experience. I am also pursuing a graduate degree in Software Engineering with Applied AI.",
       ".hero-actions .button-primary": "View projects",
@@ -212,7 +236,7 @@ const translations = {
       ".hero-stats div:nth-child(1) dd": "years of experience",
       ".hero-stats div:nth-child(2) dd": "government websites maintained",
       ".hero-stats div:nth-child(3) dd": "themes, plugins and REST API",
-      ".hero-avatar figcaption": "WordPress, PHP and well-managed coffee.",
+      ".hero-avatar figcaption": "PHP, JavaScript and well-managed coffee.",
       "#sobre .section-kicker": "Profile",
       "#sobre-title": "Web development with a product, content and operations mindset.",
       ".mini-bio":
@@ -284,6 +308,30 @@ const translations = {
       ".site-footer a": "Back to top"
     },
     projects: [
+      {
+        meta: ["2026", "Web game"],
+        title: "Acarabet",
+        description:
+          "Pixel art web game with 10 mini-games where players make an acarajé with chef Bia, from black-eyed peas to frying in palm oil. Works on mobile and desktop and rewards players with a discount coupon for the Acarajazz restaurant.",
+        tags: ["Astro", "Gamification", "Pixel art"],
+        link: "View project"
+      },
+      {
+        meta: ["2026", "Food & dining"],
+        title: "Acarajazz",
+        description:
+          "Website for a Bahian-style bar in Vila Mariana, with a full menu organized by category, house highlights, delivery, an interactive location map, events and direct WhatsApp contact.",
+        tags: ["Astro", "Digital menu", "Local SEO"],
+        link: "View project"
+      },
+      {
+        meta: ["2026", "Food & dining"],
+        title: "Kangaça",
+        description:
+          "Website for a Brazil, Africa and Asia fusion restaurant in Vila Mariana, with menu, weekday lunch, event quotes, WhatsApp reservations, animations and cookie consent (LGPD).",
+        tags: ["Astro", "Reservations", "LGPD"],
+        link: "View project"
+      },
       {
         meta: ["2024-2026", "Education"],
         title: "Vencendo Concursos",
